@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inicio2</title>
+    <title>Dashboard</title>
 </head>
 <body>
-    <header>Header</header>
-    @yield('hola')
+    <header></header>
+    @yield('content')
+    {{-- <section>
+        @yield('content')
+    </section> --}}
 </body>
 </html>
